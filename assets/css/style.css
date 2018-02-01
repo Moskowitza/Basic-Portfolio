@@ -1,96 +1,152 @@
 /* Colors Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.
-Teal color (used for headings and backgrounds): #4aaaa5
-Regular font color (used for paragraphs and all text besides the headings): #777777
-Main header background color: #ffffff
-Main header border color: #cccccc
-Footer background color: #666666
-Main content background color: #ffffff
-Main content border color: #dddddd */
+    Teal color (used for headings and backgrounds): #4aaaa5
+    Regular font color (used for paragraphs and all text besides the headings): #777777
+    Main header background color: #ffffff
+    Main header border color: #cccccc
+    Footer background color: #666666
+    Main content background color: #ffffff
+    Main content border color: #dddddd */
 body{
     color:#777777;
     background-color:#ffffff;
     border-color:#dddddd;
-}
-
-header{
-    float:left;
-    text-align: center;
-    background-color: #4aaaa5;
-    margin: 10px;
-    border-color:#cccccc;
-    border: 10px;
-    padding: 10px;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    }
+a:link {
+        color:#777777; 
+        background-color: transparent; 
+        text-decoration: none;
+    }
+    
+a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    
+ a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    
+a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    
 nav{
-/* position */
+    /* position */
+    float: left;
+    left: 0;
+    position: absolute;
+    /* colors, alignment, fonts */
     text-align: right;
-    float:left;
-/* colors */
+    right: 400px;
+    transform: translatey(50%);
     background-color:#ffffff;
     border-color:#cccccc;
-/* box size */
-    width:1000px;
-    margin: 10px; 
-    border: 10px;
-    padding: 10px;
-}
-.clearfix::after{
+    /* width=1000*/
+    width: 100%;
+    /* height: 50px; */ 
+    margin: 0px;
+    border: 0px;
+    padding-top: 20px;
+    }
+header{
+     /* position */
+        float:left;
+        position:relative;
+        bottom: 0px;
+        left: 80px;
+        z-index:1;
+    /* colors, alignment, fonts */
+        text-align: center;
+        font-size: 24pt;
+        background-color: #4aaaa5;
+        border-color:#cccccc;
+        color:#cccccc;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+       /* box size */ 
+        margin-top: 30px;
+        border: 0px;
+        padding: 10px;
+        }
+/* .clearfix::after{ 
     content:"";
     display:block;
     clear:both;
-  }
-area{
-/* Position */
-    float:left;
-/* Trying to get background-image to work, your picture is in another castle */
+     }*/
+section{
+    /* Position */
+    float: left;
+    position: relative;
+    /* Trying to get background-image to work, your picture is in another castle */
     background-image: url("../images/round.png");
     border-color:#cccccc;
-/* width, margin, border, padding */
-    width: 960px;
-    margin: 10px;
-    border: 10px;
-    padding: 50px;
+    /* width 960, margin, border, padding */
+    width: 100%;
+    margin: 0px;
+    border: 0px;
+    padding: 30;
    
-}
+    }
 
 .aboutme{
-/* position */
+    /* position */
     float: left;
-/* colors */
-    border-color:#cccccc;
-/* width, margin, border, padding */
-    width:650px;
-    margin: 10px;
-    border: 6px;
-    padding: 10px;
-}
+    overflow: auto;
+    position: relative;
+    left:30px;
+    /* colors, alignment, fonts */
+    background-color: #ffffff;
+    border-color: #cccccc;
+    /* total width (650), margin(20), border, padding */
+    width: 550px;
+    margin: 20px;
+    border: 10px;
+    padding: 20px;
+    }
 .connect{
+    /* position */
     float: left;
+    position: relative;
+    /* colors, alignment, fonts */
+    background-color:#ffffff;
     border-color:#cccccc;
-/* width, margin, border, padding */
+    /* width (270px), margin, border, padding */
     width: 270px;
-    margin: 10px;
+    margin: 20px;
     border: 10px;
     padding: 10px;
-}
+    }
 img{
     float:left;
-}
+    }
 
 h1{
+    font-size:24pt;
+    color:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
-}
+        }
 h2{
+    font-size: 18pt;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
-
-}
+    }
 footer{
+    /* position */
     float:left;
-    width:100%;
+    /* colors, alignment, fonts */
     background-color: #666666;
     text-align:center;
-    margin: 10px;
     border-color:#cccccc;
+    /* width, margin, border, padding */
+    width:100%;
+    margin: 10px;
     border: 10px;
     padding: 10px;
-}
+    }
