@@ -1,0 +1,96 @@
+/* Colors Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.
+Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings): #777777
+Main header background color: #ffffff
+Main header border color: #cccccc
+Footer background color: #666666
+Main content background color: #ffffff
+Main content border color: #dddddd */
+body{
+    color:#777777;
+    background-color:#ffffff;
+    border-color:#dddddd;
+}
+
+header{
+    float:left;
+    text-align: center;
+    background-color: #4aaaa5;
+    margin: 10px;
+    border-color:#cccccc;
+    border: 10px;
+    padding: 10px;
+}
+nav{
+/* position */
+    text-align: right;
+    float:left;
+/* colors */
+    background-color:#ffffff;
+    border-color:#cccccc;
+/* box size */
+    width:1000px;
+    margin: 10px; 
+    border: 10px;
+    padding: 10px;
+}
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+  }
+area{
+/* Position */
+    float:left;
+/* Trying to get background-image to work, your picture is in another castle */
+    background-image: url("../images/round.png");
+    border-color:#cccccc;
+/* width, margin, border, padding */
+    width: 960px;
+    margin: 10px;
+    border: 10px;
+    padding: 50px;
+   
+}
+
+.aboutme{
+/* position */
+    float: left;
+/* colors */
+    border-color:#cccccc;
+/* width, margin, border, padding */
+    width:650px;
+    margin: 10px;
+    border: 6px;
+    padding: 10px;
+}
+.connect{
+    float: left;
+    border-color:#cccccc;
+/* width, margin, border, padding */
+    width: 270px;
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+}
+img{
+    float:left;
+}
+
+h1{
+
+}
+h2{
+
+
+}
+footer{
+    float:left;
+    width:100%;
+    background-color: #666666;
+    text-align:center;
+    margin: 10px;
+    border-color:#cccccc;
+    border: 10px;
+    padding: 10px;
+}
