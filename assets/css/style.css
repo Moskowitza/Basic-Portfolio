@@ -36,10 +36,15 @@ a:active {
         background-color: transparent;
         text-decoration: underline;
     }
-main{
-        width:1000px;
-        z-index: -1;
-        background-color: mediumseagreen;
+div{
+    /* position */
+    float: left;
+    position: relative;
+    /* colors, alignment, fonts */
+    background-color:#ffffff;
+    border-color:#cccccc;
+    /* width (270px), margin, border, padding */
+    width: 1000px;
     }
 nav{
     /* position */
@@ -92,12 +97,12 @@ section{
     border-color:#cccccc;
     /* width 960, margin, border, padding */
     width: 100%;
-    margin: 0px;
-    border: 0px;
-    padding: 30;
+    margin: 20px;
+    border: 20px;
+    padding: 20;
     }
 
-.aboutme{
+#aboutme{
     /* position */
     float: left;
     overflow: auto;
@@ -112,7 +117,7 @@ section{
     border: 10px;
     padding: 20px;
     }
-.connect{
+#connect{
     /* position */
     float: left;
     position: relative;
@@ -149,8 +154,8 @@ footer{
     text-align:center;
     border-color:#cccccc;
     /* width, margin, border, padding */
-    width:100%;
-    margin: 10px;
+    width: 100%;
+    margin: 0px;
     border: 10px;
     padding: 10px;
     }
