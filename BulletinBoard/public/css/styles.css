@@ -1,0 +1,66 @@
+/* GLOBAL STYLES */
+.hide {
+  display: none;
+}
+
+
+/* HEADER STYLES */
+header {
+  background: slategray;
+  color: white;
+  height: 200px;
+  margin: 0;
+}
+.view-button-active {
+  background: lightgray;
+}
+.view-button-inactive {
+  background: rgb(182, 181, 181);
+}
+.view-button-inactive:hover {
+  opacity: .5;
+  cursor: pointer;
+}
+
+
+/* MAIN CONTENT STYLES */
+/* Flexbox list for hoods */
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/* Sets flex items to three equal columns */
+li {
+  width: calc(100% / 3);
+}
+#map
+{
+    height:500px;
+    width:100%;
+}
+
+
+/* FOOTER STYLES */
+footer {
+  background: slategray;
+  color: white;
+  height: 100px;
+  margin: 0;
+}
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+/* Flexbox Sticky Footer */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+
+}
+
+
